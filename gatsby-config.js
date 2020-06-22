@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: 'AMZBox Blog - Update News, Tutorials & Tips',
     description: 'Update your tech news on my blog. And you can find tutorials and tips about wordpress blog.',
-    siteUrl: 'https://amzbox.netlify.app', // full path to blog - no ending slash
+    siteUrl: 'https://amzbox.vercel.app', // full path to blog - no ending slash
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml',
@@ -54,7 +54,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://amzbox.netlify.app',
+        siteUrl: 'https://amzbox.vercel.app',
       },
     },
     'gatsby-plugin-emotion',
@@ -72,7 +72,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: 'UA-163161690-8',
+        trackingId: 'UA-163161690-9',
         // Puts tracking script in the head instead of the body
         head: true,
         // IP anonymization for GDPR compliance
